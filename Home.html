@@ -1,30 +1,56 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/styles.css">
-    <title>GETYGAMES- BAIXE JOGOS DE FORMA GRATUÍTA E SEGURA</title>
-</head>
-<body>
-    <header>
-        <img class="logo" src="/img/getylogo.png" alt="logo" >
-        <nav>
-            <ul class="nav__links">
-                <li><a href="/Catálogo.html">CATÁLOGO</a></li>
-                <li><a href="/Sobre.html">SOBRE</a></li>
-                <li><a href="/Contato.html">CONTANTO</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="/Donate.html"><button>DOAR</button></a>
-    </header>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #242220; 
+}
+li, a, button{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 20px;
+}
 
-    <main>
+.logo{
+    cursor: pointer;
+    size: 50px;
+    border-radius: 50px;
+}
 
-    </main>
-    
-    <footer>
+.nav__links{
+    list-style: none;
+}
 
-    </footer>
-</body>
-</html>
+.nav__links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li, a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li, a :hover {
+    transition: all 0.3s ease 0s;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(28, 231, 28);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s; ;
+}
+
+button:hover{
+    background-color:green;
+
+}
