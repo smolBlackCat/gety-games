@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #242220; 
+    background-color: #000000; 
 }
 li, a, button{
     font-family: 'Bebas Neue', cursive;
@@ -15,41 +15,113 @@ header{
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding: 30px 10;
+    padding: 10px 20px;
 }
 
 .logo{
     cursor: pointer;
+    border-radius: 50px;
 
 }
 
 .nav__links{
     list-style: none;
+    
 }
 
 .nav__links li{
     display:inline-block;
     padding: 0px 20px;
+    
 }
 
 .nav__links li, a {
     transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 
-.nav__links li, a :hover {
+.nav__links li, a:hover {
     transition: all 0.3s ease 0s;
 }
 
 button{
     padding: 9px 25px;
-    background-color: rgb(28, 231, 28);
+    background-color: rgb(255, 153, 1);
     border: none;
     border-radius: 50px;
     cursor:pointer;
-    transition: all 0.3s ease 0s; ;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
 }
 
-button :hover{
-    background-color:green;
+button:hover{
+    background-color:rgb(253, 255, 128);
 
+}
+
+.banner1{
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+h1{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color:#edf0f1;
+    font-size: 50px;
+
+}
+
+h2{
+    padding-top: 100px;
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    color:#edf0f1;
+    font-size: 50px;
+}
+
+.texttab{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.texttab2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.GMbanner{
+    padding-top: 200px;  
+}
+
+.GMbanner2{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+
+.GMbanner3{
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 450px;
+    padding-right: 20px;
+
+}
+
+.rodapetext{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
 }
