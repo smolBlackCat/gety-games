@@ -1,62 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #242220; 
-}
-li, a, button{
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-}
-header{
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    padding: 30px 20px;
-    background-color: black;
-}
-
-.logo{
-    cursor: pointer;
-    size: 50px;
-    border-radius: 50px;
-}
-
-.nav__links{
-    list-style: none;
-    background-color: black;
-}
-
-.nav__links li{
-    display:inline-block;
-    padding: 0px 20px;
-    background-color: black;
-}
-
-.nav__links li, a {
-    transition: all 0.3s ease 0s;
-    background-color: black;
-
-}
-
-.nav__links li, a :hover {
-    transition: all 0.3s ease 0s;
-    background-color: black;
-}
-
-button{
-    padding: 9px 25px;
-    background-color: rgb(28, 231, 28);
-    border: none;
-    border-radius: 50px;
-    cursor:pointer;
-    transition: all 0.3s ease 0s; ;
-}
-
-button:hover{
-    background-color:green;
-
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Gety Games</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/img/getylogo.png" alt="logo" height="64" width="64">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="/Catálogo.html">CATÁLOGO</a></li>
+                <li><a href="/Sobre.html">SOBRE</a></li>
+                <li><a href="/Contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/Donate.html"><button>DOAR</button></a>
+    </header>
+</body>
+</html>
