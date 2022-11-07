@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*barra de navegação*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +19,7 @@ header{
     justify-content: space-between;
     align-items:center;
     padding: 10px 20px;
+
 }
 
 .logo{
@@ -59,14 +63,20 @@ button:hover{
 
 }
 
+/*corpo home*/
+
+::-webkit-scrollbar{
+    display: none;
+}
+
 .banner1{
-    padding-top: 50px;
+    padding: 50px;
     text-align: center;
 
 }
 
 h1{
-    padding-top: 100px;
+    padding: 100px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     color:#edf0f1;
@@ -76,52 +86,60 @@ h1{
 
 h2{
     padding-top: 100px;
-    text-align: left;
     font-family: 'Bebas Neue', cursive;
     color:#edf0f1;
     font-size: 50px;
 }
 
+/*TEXT AND IMG 1 */
+
 .texttab{
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     color: #edf0f1;
-    padding-left: 50px;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-right: 150px;
+}
+
+.GMbanner{  
+    padding-top: 50px;
+}
+
+/* TEXT AND IMG 2 */
+
+
+.GMbanner2{
+    padding-top: 200px;
+    margin-right: 50px;
 }
 
 .texttab2{
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     color: #edf0f1;
-    padding-left: 120px;
-    padding-right: 100px;
+    padding-right: 150px;
     padding-top: 100px;
 }
 
-.GMbanner{
-    padding-top: 200px;  
-}
 
-.GMbanner2{
+/* rodape */
+
+.rodapeimg{
     padding-top: 200px;
-    padding-left: 50px;
-}
-
-
-.GMbanner3{
-    text-align: center;
-    padding-top: 200px;
-    padding-left: 450px;
-    padding-right: 20px;
+    padding-right: 50px;
 
 }
 
 .rodapetext{
     padding-top: 200px;
-    text-align: center;
     color: white;
+}
+
+/*cores nav bar*/
+
+.purple{
+    color: purple;
+}.purple2:hover{
+    color: purple;
 }
