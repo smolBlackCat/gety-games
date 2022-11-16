@@ -92,6 +92,7 @@ h2{
 }
 
 h3{
+    font-family: 'Bebas Neue', cursive;
     padding-top: 100px;
     font-size: 40px;
 }
@@ -156,6 +157,19 @@ h3{
     color: white;
     text-align: center;
     font-size: 30px;
+}
+
+/* contato */
+
+.fontcontato{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.fontcontato:hover{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: purple;
 }
 
 /*cores nav bar*/
