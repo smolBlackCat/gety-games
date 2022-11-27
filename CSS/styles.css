@@ -69,6 +69,19 @@ button:hover{
     display: none;
 }
 
+label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: white;
+    background-color:orange;
+    margin: 15px;
+}
+
+input{
+    align-items:left;
+    color: white;
+}
+
 .banner1{
     padding: 50px;
     text-align: center;
@@ -95,6 +108,14 @@ h3{
     font-family: 'Bebas Neue', cursive;
     padding-top: 100px;
     font-size: 40px;
+}
+
+h4{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 40px;
+    border: 10px;
+    margin-top: 90px;
 }
 
 /*TEXT AND IMG 1 */
@@ -172,10 +193,54 @@ h3{
     color: purple;
 }
 
+/*Donate cadrastro*/
+
+.divcadastro{
+    border: orange;
+    border-radius: 30px;
+    background-color: orange;
+    margin-top: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: sticky;
+}
+
+.cadastroposition{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.submitebotton{
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 12px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 40%;
+    transform: translateX(-55%);
+}
+.submitebotton:hover{
+ background-color: purple;
+}
+
 /*cores nav bar*/
 
 .purple{
     color: purple;
 }.purple2:hover{
     color: purple;
+}
+.orange{
+    color: orange;
+}
+
+.orange:hover{
+    color: orange;
 }
