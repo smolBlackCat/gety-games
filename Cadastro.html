@@ -4,45 +4,42 @@
         <title>Gety Games - Doações</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/CSS/styles.css">
+        <link rel="stylesheet" href="CSS/styles.css">
     </head>
 
     <body>
         <header>
-            <a href="/Home.html"><img class="logo" src="/img/getylogo.png" alt="logo" height="64" width="64"></a>
+            <a href="Home.html"><img class="logo" src="img/getylogo.png" alt="logo" height="64" width="64"></a>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="/Catálogo.html">CATÁLOGO</a></li>
-                    <li><a href="/Sobre.html">SOBRE</a></li>
-                    <li><a href="/Contato.html">CONTATO</a></li>
+                    <li><a href="Catálogo.html">CATÁLOGO</a></li>
+                    <li><a href="Sobre.html">SOBRE</a></li>
+                    <li><a href="Contato.html">CONTATO</a></li>
                 </ul>
             </nav>
-            <a class="cta" href="/Cadastro.html"><button>CADASTRO</button></a>
+            <a class="cta" href="Cadastro.html"><button>CADASTRO</button></a>
         </header>
 
         <main class="cadastroposition">
             <h4 align="center">CADASTRO</h4>
-            <form class="divcadastro" action="#" method="get" id="cadastro">
+            <form class="divcadastro" action="config.php" method="POST" id="cadastro">
                 <label>Nome :
-                    <input type="text" name="Nome">
+                    <input type="text" name="nome">
                 </label>
                 <br>
-                <label>Email :
-                    <input type="email" name="Email">
-                </label>
-                <br>
-
-                <label>Senha :
-                    <input type="password" name="Senha">
-                </label>
+                <label>Email :</label>
+                    <input type="email" name="email">
                 <br>
 
-                <label>Nascimento :
+                <label>Senha :</label>
+                    <input type="password" name="senha">
+                <br>
+
+                <label>Nascimento :</label>
                     <input type="date" name="nascimento">
-                </label>
                 <br>
 
-                <button align=center class="submitebotton" type="submit" form="form1" value="Submit">Enviar</button>
+                <button align=center class="submitebotton"> <input="submit" form="form1" value="Submit">Enviar</button>
                 <br>
             </form>
         </main>
@@ -52,7 +49,8 @@
                 <table class="rodape">
                     <tr>
                         <td class="rodapeimg">
-                            <img src="/img/getylogo.png" width="32" height="32" alt="getyminilogo">
+                            <img src="
+                            img/getylogo.png" width="32" height="32" alt="getyminilogo">
                         </td>
                         <td class="rodapetext">
                             Direitos GETYGAMES. © 2022 GETYGAMES Co. Todos os direitos reservados.
