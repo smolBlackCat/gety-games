@@ -155,12 +155,14 @@ h4{
 .rodapeimg{
     padding-top: 200px;
     padding-right: 50px;
+    transform: translateY(290%);
 
 }
 
 .rodapetext{
     padding-top: 200px;
     color: white;
+    transform: translateY(290%);
 }
 
 /*404 error */
