@@ -232,6 +232,23 @@ h4{
  background-color: purple;
 }
 
+/* text catalogo and img*/
+
+.tittlecatalogo{
+    margin-left: 100px;
+}
+
+.catalogotext1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: white;
+    margin-left: 100px;
+}
+
+.catalogoimg{
+    margin-left: 250px;
+}
+
 /*cores nav bar*/
 
 .purple{
